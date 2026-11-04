@@ -1,0 +1,12 @@
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/serv_desc"
+    android:requireDeviceUnlock="false">
+    <aid-group
+        android:description="@string/aids_desc"
+        android:category="other">
+        <!-- AID Oficial Registrado para KeyManager NFC Digital Access -->
+        <aid-filter android:name="F0010203040506" />
+        <!-- AID Opcional secundario para compatibilidad de cerraduras inteligentes -->
+        <aid-filter android:name="F222222222" />
+    </aid-group>
+</host-apdu-service>

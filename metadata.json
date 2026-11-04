@@ -1,0 +1,6 @@
+{
+  "name": "KeyManager NFC - Billetera Digital de Llaveros",
+  "description": "Billetera digital de llaveros de proximidad RFID/NFC, diagnóstico de hardware Android, identificación de frecuencias (13.56MHz vs 125kHz), emulación HCE y gestión segura de credenciales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
